@@ -1,0 +1,8 @@
+/* 3/3 matrix ke liye grid liya hai */
+
+.board{
+    display:grid;
+    grid-template-columns: repeat(3, 6rem);
+    place-content: center;
+    justify-content: center;
+}
